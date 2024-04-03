@@ -189,211 +189,8 @@ if game.PlaceId == 2788229376 then
                 for i, v in pairs(getgenv().alts) do
                     if v == plr.UserId then
 
-                       -- if finalMsg == getgenv().prefix .. "setup bank" then
-                       --     local function setupbank()
-                       --         game.Players.LocalPlayer.Character.Head.Anchored = false
-                       --         for i, v in pairs(getgenv().alts) do
---
-                       --             if i == "Alt1" then
-                       --                 if v == plr.UserId then
-                       --                 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-389, 21, -338)
-                       --                 end
---
-                       --             end
-                       --            -- if i == "Alt1" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-389, 21, -338)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt2" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-385, 21, -338)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt3" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-380, 21, -337)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt4" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-376, 21, -338)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt5" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-370, 21, -338)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt6" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-366, 21, -338)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt7" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-361, 21, -338)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt8" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-361, 21, -333)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt9" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-365, 21, -334)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt10" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-370, 21, -334)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt11" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-375, 21, -334)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt12" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-381, 21, -334)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt13" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-386, 21, -334)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt14" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-390, 21, -334)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt15" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-390, 21, -331)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt16" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-386, 21, -331)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt17" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-382, 21, -331)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt18" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-376, 21, -331)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt19" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-371, 21, -331)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt20" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-366, 21, -331)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt21" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-361, 21, -331)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt22" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-361, 21, -327)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt23" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-365, 21, -327)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt24" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-371, 21, -326)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt25" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-376, 21, -327)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt26" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-381, 21, -326)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt27" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-385, 21, -327)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt28" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-390, 21, -323)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt29" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-390, 21, -326)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt30" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-390, 21, -323)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt31" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-385, 21, -323)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt32" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-381, 21, -323)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt33" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-375, 21, -324)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt34" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-370, 21, -323)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt35" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-365, 21, -324)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt36" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-360, 21, -324)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt37" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-359, 21, -318)
-                       --            --     end
-                       --            -- end
-                       --            -- if i == "Alt38" then
-                       --            --     if v == plr.UserId then
-                       --            --         game:service 'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-364, 21, -319)
-                       --            --     end
-                       --            -- end
-                       --         end
-                       --     
-                       --     end
-                       -- end
+  
+ 
 
                        if finalMsg == getgenv().prefix .. "setup bank" then
                         local function setupbank()
@@ -411,11 +208,46 @@ if game.PlaceId == 2788229376 then
                             end
                             
                             for i, v in pairs(getgenv().alts) do
-                                -- Define the positions for each alt
+                                
                                 local altPositions = {
                                     Alt1 = CFrame.new(-389, 21, -338),
                                     Alt2 = CFrame.new(-385, 21, -338),
-                                    -- Add more positions as needed
+                                    Alt3 = CFrame.new(-380, 21, -337)
+                                    Alt4 = CFrame.new(-376, 21, -338)
+                                    Alt5 = CFrame.new(-370, 21, -338)
+                                    Alt6 = CFrame.new(-366, 21, -338)
+                                    Alt7 = CFrame.new(-361, 21, -338)
+                                    Alt8 = CFrame.new(-361, 21, -333)
+                                    Alt9 = CFrame.new(-365, 21, -334)
+                                    Alt10 = CFrame.new(-370, 21, -334)
+                                    Alt11 = CFrame.new(-375, 21, -334)
+                                    Alt12 = CFrame.new(-381, 21, -334)
+                                    Alt13 = CFrame.new(-386, 21, -334)
+                                    Alt14 = CFrame.new(-390, 21, -334)
+                                    Alt15 = CFrame.new(-390, 21, -331)
+                                    Alt16 = CFrame.new(-386, 21, -331)
+                                    Alt17 = CFrame.new(-382, 21, -331)
+                                    Alt18 = CFrame.new(-376, 21, -331)
+                                    Alt19 = CFrame.new(-371, 21, -331)
+                                    Alt20 = CFrame.new(-366, 21, -331)
+                                    Alt21 = CFrame.new(-361, 21, -331)
+                                    Alt22 = CFrame.new(-361, 21, -327)
+                                    Alt23 = CFrame.new(-365, 21, -327)
+                                    Alt24 = CFrame.new(-371, 21, -326)
+                                    Alt25 = CFrame.new(-376, 21, -327)
+                                    Alt26 = CFrame.new(-381, 21, -326)
+                                    Alt27 = CFrame.new(-385, 21, -327)
+                                    Alt28 = CFrame.new(-390, 21, -323)
+                                    Alt29 = CFrame.new(-390, 21, -326)
+                                    Alt30 = CFrame.new(-390, 21, -323)
+                                    Alt31 = CFrame.new(-385, 21, -323)
+                                    Alt32 = CFrame.new(-381, 21, -323)
+                                    Alt33 = CFrame.new(-375, 21, -324)
+                                    Alt34 = CFrame.new(-370, 21, -323)
+                                    Alt35 = CFrame.new(-365, 21, -324)
+                                    Alt36 = CFrame.new(-360, 21, -324)
+                                    Alt37 = CFrame.new(-359, 21, -318)
+                                    Alt38 = CFrame.new(-364, 21, -319),
                                 }
                     
                                 -- Check if the current alt exists in the positions table
